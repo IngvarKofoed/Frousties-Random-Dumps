@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "facing=up": { "model": "randomdumps:BlockFancyTorch" },
+        "facing=east": { "model": "randomdumps:BlockFancyTorchWall" },
+        "facing=south": { "model": "randomdumps:BlockFancyTorchWall", "y": 90 },
+        "facing=west": { "model": "randomdumps:BlockFancyTorchWall", "y": 180 },
+        "facing=north": { "model": "randomdumps:BlockFancyTorchWall", "y": 270 }
+    }
+}

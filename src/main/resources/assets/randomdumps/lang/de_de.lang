@@ -1,0 +1,24 @@
+item.itemFrosties.name=Frosties
+item.itemFrostiesBowl.name=Frostiesschüssel
+item.itemFancyStick.name=Schick Stock
+item.itemCakeBits.name=Kuche Bits
+
+tile.blockPaper.name=Papierblock
+tile.firePit.name=Feuergrube
+tile.blockArrowLeft.name=Pfeil (Links)
+tile.blockArrowRight.name=Pfeil (Rechts)
+tile.blockFancyTorch.name=Schick Fackel
+
+entity.randomdumps.Cupcake.name=Cupcake
+
+randomdumps.Reward=Belohnung
+
+randomdumps.cupcake.Pweet=Cupcake
+randomdumps.cupcake.Hurt=Cupcake Verletzt :c
+randomdumps.cupcake.Death=Cupcake Gestorben D:
+randomdumps.cupcake.Step=Cupcakes Schritte
+
+randomdumps.chocobo.Kweh=KWEH
+randomdumps.chocobo.Hurt=Chocobo Verletzt :c
+randomdumps.chocobo.Death=Chocobo Gestorben D:
+randomdumps.chocobo.Step=Chocobos Schritte

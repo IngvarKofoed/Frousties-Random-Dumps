@@ -1,0 +1,32 @@
+item.itemFrosties.name=Frosted Flakes
+item.itemFrostiesBowl.name=Bowl of Frosties
+item.itemFancyStick.name=Fancy Stick
+item.itemCakeBits.name=Cake Bits
+
+item.itemRecordTest.name=Music Disk
+
+item.record.test.desc=LeeandLie - PAPERMOON
+
+tile.blockPaper.name=Paper Block
+tile.firePit.name=Fire Pit
+tile.blockArrowLeft.name=Arrow (Left)
+tile.blockArrowRight.name=Arrow (Right)
+tile.blockFancyTorch.name=Fancy Torch
+
+entity.randomdumps.Cupcake.name=Cupcake
+
+itemGroup.tabRandom=Frousties' Random Dumps
+
+randomdumps.Reward=Reward
+
+randomdumps.cupcake.Pweet=Cupcake
+randomdumps.cupcake.Hurt=Cupcake Hurt :c
+randomdumps.cupcake.Death=Cupcake Dead D:
+randomdumps.cupcake.Step=Cupcake Steps
+
+randomdumps.chocobo.Kweh=KWEH
+randomdumps.chocobo.Hurt=Chocobo Hurt :c
+randomdumps.chocobo.Death=Chocobo Dead D:
+randomdumps.chocobo.Step=Chocobo Steps
+
+randomdumps.Test=Test

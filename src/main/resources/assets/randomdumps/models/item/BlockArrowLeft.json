@@ -1,0 +1,9 @@
+{
+    "parent": "randomdumps:block/BlockArrowLeft",
+    "textures": {
+        "0":"blocks/log_oak",
+		"1":"blocks/log_oak_top",
+		"2":"blocks/hardened_clay_stained_pink",
+		"particle":"blocks/log_oak"
+    }
+}

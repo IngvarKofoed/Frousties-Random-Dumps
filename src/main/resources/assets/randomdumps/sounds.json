@@ -1,0 +1,76 @@
+{
+	"reward": {
+		"category": "block",
+		"subtitle": "randomdumps.Reward",
+		"sounds": ["randomdumps:reward"]
+	},
+
+	"entities.cupcake.Pweet": {
+		"category": "neutral",
+		"subtitle": "randomdumps.cupcake.Pweet",
+		"sounds": [{
+				"name": "entities.cupcake.Pweet"
+			},
+			"randomdumps:entities/cupcake/Pweet1",
+			"randomdumps:entities/cupcake/Pweet2",
+			"randomdumps:entities/cupcake/Pweet3"
+		]
+	},
+
+	"entities.cupcake.Hurt": {
+		"category": "neutral",
+		"subtitle": "randomdumps.cupcake.Hurt",
+		"sounds": [{
+				"name": "entities.cupcake.Hurt"
+			},
+			"randomdumps:entities/cupcake/Hurt1",
+			"randomdumps:entities/cupcake/Hurt2",
+			"randomdumps:entities/cupcake/Hurt3"
+		]
+	},
+
+	"entities.cupcake.Death": {
+		"category": "neutral",
+		"subtitle": "randomdumps.cupcake.Death",
+		"sounds": ["randomdumps:entities/cupcake/Death"]
+	},
+
+	"entities.cupcake.Step": {
+		"category": "neutral",
+		"subtitle": "randomdumps.cupcake.Step",
+		"sounds": ["randomdumps:entities/cupcake/Step"]
+	},
+
+	"entities.chocobo.Kweh": {
+		"category": "neutral",
+		"subtitle": "randomdumps.chocobo.Kweh",
+		"sounds": [{
+				"name": "entities.chocobo.Kweh"
+			},
+			"randomdumps:entities/chocobo/Kweh1",
+			"randomdumps:entities/chocobo/Kweh2",
+			"randomdumps:entities/chocobo/Kweh3"
+		]
+	},
+
+	"entities.chocobo.Hurt": {
+		"category": "neutral",
+		"subtitle": "randomdumps.chocobo.Hurt",
+		"sounds": ["randomdumps:entities/chocobo/Hurt"]
+	},
+
+	"entities.chocobo.Death": {
+		"category": "neutral",
+		"subtitle": "randomdumps.chocobo.Death",
+		"sounds": ["randomdumps:entities/chocobo/Death"]
+	},
+
+	"record.Test": {
+		"category": "block",
+		"subtitle": "randomdumps.Test",
+		"sounds": [{
+			"name": "randomdumps:records/Test",
+			"stream": true
+		}]
+	}
+}

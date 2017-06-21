@@ -1,0 +1,7 @@
+{
+    "parent": "randomdumps:block/BlockFancyTorch",
+    "textures": {
+        "0":"blocks/torch_on",
+		"particle":"blocks/torch_on"
+    }
+}

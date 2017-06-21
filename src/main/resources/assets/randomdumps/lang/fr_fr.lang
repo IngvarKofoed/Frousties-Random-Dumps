@@ -1,0 +1,24 @@
+item.itemFrosties.name=Frosties
+item.itemFrostiesBowl.name=Bol de Frosties
+item.itemFancyStick.name=Bâton Chic
+item.itemCakeBits.name=Miettes de Gâteau
+
+tile.blockPaper.name=Bloc de Papier
+tile.firePit.name=Feu de Camp
+tile.blockArrowLeft.name=Flêche (Gauche)
+tile.blockArrowRight.name=Arrow (Droite)
+tile.blockFancyTorch.name=Torche Chic
+
+entity.randomdumps.Cupcake.name=Cupcake
+
+randomdumps.Reward=Récompense
+
+randomdumps.cupcake.Pweet=Cupcake
+randomdumps.cupcake.Hurt=Cupcake Blessé :c
+randomdumps.cupcake.Death=Cupcake Mort D:
+randomdumps.cupcake.Step=Pas de Cupcake
+
+randomdumps.chocobo.Kweh=KWEH
+randomdumps.chocobo.Hurt=Chocobo Blessé :c
+randomdumps.chocobo.Death=Chocobo Mort D:
+randomdumps.chocobo.Step=Pas de Chocobo

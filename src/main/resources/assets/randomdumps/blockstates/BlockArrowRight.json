@@ -1,0 +1,19 @@
+{
+    "variants": {
+		//"facing=down": {
+        //    "true":  { 	"facing=north": { "model": "randomdumps:BlockArrowRight", "y": 270 },
+		//				"facing=east":  { "model": "randomdumps:BlockArrowRight" },
+		//				"facing=south": { "model": "randomdumps:BlockArrowRight", "y": 90 },
+		//				"facing=west":  { "model": "randomdumps:BlockArrowRight", "y": 180 } }
+        //    "false": { 	"facing=north": { "model": "randomdumps:BlockArrowRightWall", "y": 270 },
+		//				"facing=east":  { "model": "randomdumps:BlockArrowRightWall" },
+		//				"facing=south": { "model": "randomdumps:BlockArrowRightWall", "y": 90 },
+		//				"facing=west":  { "model": "randomdumps:BlockArrowRightWall", "y": 180 }}
+		//},
+		"facing=up": { "model": "randomdumps:BlockArrowRight" },
+        "facing=north": { "model": "randomdumps:BlockArrowRight", "y": 270 },
+		"facing=east":  { "model": "randomdumps:BlockArrowRight" },
+		"facing=south": { "model": "randomdumps:BlockArrowRight", "y": 90 },
+		"facing=west":  { "model": "randomdumps:BlockArrowRight", "y": 180 }
+    }
+}
