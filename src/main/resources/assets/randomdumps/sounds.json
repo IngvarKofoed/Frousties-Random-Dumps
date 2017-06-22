@@ -1,8 +1,8 @@
 {
-	"reward": {
+	"Reward": {
 		"category": "block",
 		"subtitle": "randomdumps.Reward",
-		"sounds": ["randomdumps:reward"]
+		"sounds": ["randomdumps:Reward"]
 	},
 
 	"entities.cupcake.Pweet": {

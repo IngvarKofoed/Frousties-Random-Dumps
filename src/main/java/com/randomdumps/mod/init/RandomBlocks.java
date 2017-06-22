@@ -2,6 +2,7 @@ package com.randomdumps.mod.init;
 
 import com.randomdumps.mod.blocks.BlockArrowLeft;
 import com.randomdumps.mod.blocks.BlockArrowRight;
+import com.randomdumps.mod.blocks.BlockConcretePowder;
 import com.randomdumps.mod.blocks.BlockFancyTorch;
 import com.randomdumps.mod.blocks.BlockPaper;
 import com.randomdumps.mod.blocks.FirePit;
@@ -20,6 +21,7 @@ public class RandomBlocks {
 	public static Block blockArrowLeft;
 	public static Block blockArrowRight;
 	public static Block blockFancyTorch;
+	public static Block blockConcretePowder;
 	
 	public static void init() {
 		blockPaper = new BlockPaper();
@@ -27,6 +29,7 @@ public class RandomBlocks {
 		blockArrowLeft = new BlockArrowLeft();
 		blockArrowRight = new BlockArrowRight();
 		blockFancyTorch = new BlockFancyTorch();
+		blockConcretePowder = new BlockConcretePowder();
 	}
 	
 	public static void register() {
@@ -35,6 +38,7 @@ public class RandomBlocks {
 		registerBlock(blockArrowLeft);
 		registerBlock(blockArrowRight);
 		registerBlock(blockFancyTorch);
+		registerBlock(blockConcretePowder);
 	}
 	
 	public static void registerBlock(Block block) {
@@ -50,6 +54,7 @@ public class RandomBlocks {
 		registerRender(blockArrowLeft);
 		registerRender(blockArrowRight);
 		registerRender(blockFancyTorch);
+		registerRender(blockConcretePowder);
 	}
 	
 	public static void registerRender(Block block) {

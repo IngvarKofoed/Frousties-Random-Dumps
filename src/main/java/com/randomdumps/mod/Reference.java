@@ -40,6 +40,7 @@ public class Reference {
 		FIREPIT("firePit", "FirePit"),
 		ARROW_LEFT("blockArrowLeft", "BlockArrowLeft"),
 		ARROW_RIGHT("blockArrowRight", "BlockArrowRight"),
+		CONCRETE_POWDER("blockConcretePowder", "BlockConcretePowder"),
 		FANCY_TORCH("blockFancyTorch", "BlockFancyTorch");
 		
 		private String unlocalizedName;

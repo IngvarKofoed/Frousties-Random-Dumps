@@ -17,8 +17,8 @@ import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
 @ObjectHolder(Reference.MOD_ID)
 public class RandomSounds {
 
-	@ObjectHolder("reward")
-	public static final SoundEvent REWARD = createSoundEvent("reward");
+	@ObjectHolder("Reward")
+	public static final SoundEvent REWARD = createSoundEvent("Reward");
 
 	@ObjectHolder("entities.cupcake.Pweet")
 	public static final SoundEvent CUPCAKE_AMBIENT = createSoundEvent("entities.cupcake.Pweet");
