@@ -38,10 +38,22 @@ public class BlockConcretePowder extends BlockColored {
 	
 	public static enum EnumColor implements IStringSerializable
 	{
-		BLUE(0, "blue"),
-	    RED(1, "red"),
-	    GREEN(2, "green"),
-	    YELLOW(3, "yellow");
+		WHITE(0, "white"),
+		ORANGE(1, "orange"),
+		MAGENTA(2, "magenta"),
+		LIGHT_BLUE(3, "light_blue"),
+		YELLOW(4, "yellow"),
+		LIME(5, "lime"),
+		PINK(6, "pink"),
+		GRAY(7, "gray"),
+		SILVER(8, "silver"),
+	    CYAN(9, "cyan"),
+	    PURPLE(10, "purple"),
+	    BLUE(11, "blue"),
+		BROWN(12, "brown"),
+	    GREEN(13, "green"),
+	    RED(14, "red"),
+	    BLACK(15, "black");
 
 		public int getMetadata()
 		{

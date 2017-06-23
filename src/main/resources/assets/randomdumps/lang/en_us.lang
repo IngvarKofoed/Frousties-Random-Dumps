@@ -12,7 +12,24 @@ tile.firePit.name=Fire Pit
 tile.blockArrowLeft.name=Arrow (Left)
 tile.blockArrowRight.name=Arrow (Right)
 tile.blockFancyTorch.name=Fancy Torch
-tile.blockConcretePowder.name=Concrete Powder
+
+tile.blockConcretePowder.white.name=White Concrete Powder
+tile.blockConcretePowder.orange.name=Orange Concrete Powder
+tile.blockConcretePowder.magenta.name=Magenta Concrete Powder
+tile.blockConcretePowder.light_blue.name=Light Blue Concrete Powder
+tile.blockConcretePowder.yellow.name=Yellow Concrete Powder
+tile.blockConcretePowder.lime.name=Lime Concrete Powder
+tile.blockConcretePowder.pink.name=Pink Concrete Powder
+tile.blockConcretePowder.gray.name=Gray Concrete Powder
+tile.blockConcretePowder.silver.name=Light Gray Concrete Powder
+tile.blockConcretePowder.cyan.name=Cyan Concrete Powder
+tile.blockConcretePowder.purple.name=Purple Concrete Powder
+tile.blockConcretePowder.blue.name=Blue Concrete Powder
+tile.blockConcretePowder.brown.name=Brown Concrete Powder
+tile.blockConcretePowder.green.name=Green Concrete Powder
+tile.blockConcretePowder.red.name=Red Concrete Powder
+tile.blockConcretePowder.black.name=Black Concrete Powder
+
 tile.blockConcrete.name=Concrete
 
 entity.randomdumps.Cupcake.name=Cupcake

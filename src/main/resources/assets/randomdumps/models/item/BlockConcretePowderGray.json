@@ -1,5 +1,5 @@
 {
-    "parent": "randomdumps:block/BlockConcretePowderGrey",
+    "parent": "randomdumps:block/BlockConcretePowderGray",
     "display": {
 		"thirdperson": {
 			"rotation": [ 10, -45, 170 ],
