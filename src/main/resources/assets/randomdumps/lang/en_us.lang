@@ -13,6 +13,7 @@ tile.blockArrowLeft.name=Arrow (Left)
 tile.blockArrowRight.name=Arrow (Right)
 tile.blockFancyTorch.name=Fancy Torch
 tile.blockConcretePowder.name=Concrete Powder
+tile.blockConcrete.name=Concrete
 
 entity.randomdumps.Cupcake.name=Cupcake
 

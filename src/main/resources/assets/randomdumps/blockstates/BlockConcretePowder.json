@@ -1,5 +1,21 @@
 {
     "variants": {
-        "normal": { "model": "randomdumps:BlockConcretePowder" }
+        "color=purple" : { "model": "randomdumps:BlockConcretePowderPurple" },
+		"color=blue": { "model": "randomdumps:BlockConcretePowderBlue" },
+		"color=magenta": { "model": "randomdumps:BlockConcretePowderMagenta" },
+		"color=light_blue": { "model": "randomdumps:BlockConcretePowderLightBlue" },
+		"color=cyan": { "model": "randomdumps:BlockConcretePowderCyan" },
+		"color=pink": { "model": "randomdumps:BlockConcretePowderPink" },
+		"color=brown": { "model": "randomdumps:BlockConcretePowderBrown" },
+		"color=white": { "model": "randomdumps:BlockConcretePowder" },
+		"color=silver": { "model": "randomdumps:BlockConcretePowderSilver" },
+		"color=pink": { "model": "randomdumps:BlockConcretePowderPink" },
+		"color=yellow": { "model": "randomdumps:BlockConcretePowderYellow" },
+		"color=lime": { "model": "randomdumps:BlockConcretePowderLime" },
+		"color=orange": { "model": "randomdumps:BlockConcretePowderOrange" },
+		"color=green": { "model": "randomdumps:BlockConcretePowderGreen" },
+		"color=black": { "model": "randomdumps:BlockConcretePowderBlack" },
+		"color=gray": { "model": "randomdumps:BlockConcretePowderGray" },
+		"color=red": { "model": "randomdumps:BlockConcretePowderRed" }
     }
 }

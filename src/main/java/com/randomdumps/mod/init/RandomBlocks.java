@@ -2,6 +2,7 @@ package com.randomdumps.mod.init;
 
 import com.randomdumps.mod.blocks.BlockArrowLeft;
 import com.randomdumps.mod.blocks.BlockArrowRight;
+import com.randomdumps.mod.blocks.BlockConcrete;
 import com.randomdumps.mod.blocks.BlockConcretePowder;
 import com.randomdumps.mod.blocks.BlockFancyTorch;
 import com.randomdumps.mod.blocks.BlockPaper;
@@ -9,7 +10,9 @@ import com.randomdumps.mod.blocks.FirePit;
 
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.block.model.ModelBakery;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.item.EnumDyeColor;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraftforge.fml.common.registry.GameRegistry;
@@ -22,6 +25,7 @@ public class RandomBlocks {
 	public static Block blockArrowRight;
 	public static Block blockFancyTorch;
 	public static Block blockConcretePowder;
+	public static Block blockConcrete;
 	
 	public static void init() {
 		blockPaper = new BlockPaper();
@@ -30,6 +34,7 @@ public class RandomBlocks {
 		blockArrowRight = new BlockArrowRight();
 		blockFancyTorch = new BlockFancyTorch();
 		blockConcretePowder = new BlockConcretePowder();
+		blockConcrete = new BlockConcrete();
 	}
 	
 	public static void register() {
@@ -39,6 +44,7 @@ public class RandomBlocks {
 		registerBlock(blockArrowRight);
 		registerBlock(blockFancyTorch);
 		registerBlock(blockConcretePowder);
+		registerBlock(blockConcrete);
 	}
 	
 	public static void registerBlock(Block block) {
@@ -55,6 +61,7 @@ public class RandomBlocks {
 		registerRender(blockArrowRight);
 		registerRender(blockFancyTorch);
 		registerRender(blockConcretePowder);
+		registerRender(blockConcrete);
 	}
 	
 	public static void registerRender(Block block) {

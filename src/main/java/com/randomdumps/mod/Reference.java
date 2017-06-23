@@ -32,6 +32,10 @@ public class Reference {
 		public String getRegistryName() {
 			return registryName;
 		}
+		
+		public String getName() {
+			return getRegistryName();
+		}
 	}
 	
 	public static enum DumpBlocks {
@@ -41,6 +45,7 @@ public class Reference {
 		ARROW_LEFT("blockArrowLeft", "BlockArrowLeft"),
 		ARROW_RIGHT("blockArrowRight", "BlockArrowRight"),
 		CONCRETE_POWDER("blockConcretePowder", "BlockConcretePowder"),
+		CONCRETE("blockConcrete", "BlockConcrete"),
 		FANCY_TORCH("blockFancyTorch", "BlockFancyTorch");
 		
 		private String unlocalizedName;
@@ -58,6 +63,10 @@ public class Reference {
 		
 		public String getRegistryName() {
 			return registryName;
+		}
+		
+		public String getName() {
+			return getRegistryName();
 		}
 	}
 }

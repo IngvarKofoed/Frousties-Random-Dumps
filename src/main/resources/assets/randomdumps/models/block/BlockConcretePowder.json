@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "randomdumps:blocks/BlockConcretePowder"
+        "all": "randomdumps:blocks/ConcretePowder/BlockConcretePowder"
     }
 }

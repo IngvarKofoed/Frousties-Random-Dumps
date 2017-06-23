@@ -9,14 +9,8 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
 
-/**
- * Registers this mod's {@link SoundEvent}s.
- *
- * @author Choonster
- */
 @ObjectHolder(Reference.MOD_ID)
 public class RandomSounds {
-
 	@ObjectHolder("Reward")
 	public static final SoundEvent REWARD = createSoundEvent("Reward");
 
@@ -39,12 +33,7 @@ public class RandomSounds {
 	@ObjectHolder("record.Test")
 	public static final SoundEvent RECORD_TEST = createSoundEvent("record.Test");
 
-	/**
-	 * Create a {@link SoundEvent}.
-	 *
-	 * @param soundName The SoundEvent's name without the testmod3 prefix
-	 * @return The SoundEvent
-	 */
+
 	private static SoundEvent createSoundEvent(final String soundName) {
 		final ResourceLocation soundID = new ResourceLocation(Reference.MOD_ID, soundName);
 		return new SoundEvent(soundID).setRegistryName(soundID);
