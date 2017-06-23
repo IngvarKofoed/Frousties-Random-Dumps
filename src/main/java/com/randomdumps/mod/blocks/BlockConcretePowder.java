@@ -34,6 +34,7 @@ public class BlockConcretePowder extends BlockColored {
 		setRegistryName(Reference.DumpBlocks.CONCRETE_POWDER.getRegistryName());
 		setCreativeTab(RandomDumps.RANDOM_TAB);
 		setSoundType(blockSoundType.GROUND);
+		setHardness(0.6F);
 	}
 	
 	public static enum EnumColor implements IStringSerializable

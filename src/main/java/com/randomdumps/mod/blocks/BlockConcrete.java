@@ -18,6 +18,7 @@ public class BlockConcrete extends BlockColored {
 		setRegistryName(Reference.DumpBlocks.CONCRETE.getRegistryName());
 		setCreativeTab(RandomDumps.RANDOM_TAB);
 		setSoundType(blockSoundType.STONE);
+		setHardness(1.5F);
 	}
 	
 	public static enum EnumColor implements IStringSerializable

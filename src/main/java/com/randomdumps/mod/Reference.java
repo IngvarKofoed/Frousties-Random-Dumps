@@ -9,19 +9,20 @@ public class Reference {
 	public static final String CLIENT_PROXY_CLASS = "com.randomdumps.mod.proxy.ClientProxy";
 	public static final String SERVER_PROXY_CLASS = "com.randomdumps.mod.proxy.ServerProxy";
 	
-	public static enum DumpItems {
-		FROSTIES("itemFrosties", "ItemFrosties"),
-		FROSTIES_BOWL("itemFrostiesBowl", "ItemFrostiesBowl"),
-		CAKE_BITS("itemCakeBits", "ItemCakeBits"),
-		FANCY_STICK("itemFancyStick", "ItemFancyStick"),
-		CONCRETE("itemBlockConcrete", "ItemBlockConcrete"),
-		CONCRETE_POWDER("itemBlockConcretePowder", "ItemBlockConcretePowder"),
-		RECORD_TEST("itemRecordTest", "ItemRecordTest");
+	public static enum DumpBlocks {
+		
+		PAPER("blockPaper", "BlockPaper"),
+		FIREPIT("firePit", "FirePit"),
+		ARROW_LEFT("blockArrowLeft", "BlockArrowLeft"),
+		ARROW_RIGHT("blockArrowRight", "BlockArrowRight"),
+		CONCRETE_POWDER("blockConcretePowder", "BlockConcretePowder"),
+		CONCRETE("blockConcrete", "BlockConcrete"),
+		FANCY_TORCH("blockFancyTorch", "BlockFancyTorch");
 		
 		private String unlocalizedName;
 		private String registryName;
 		
-		DumpItems(String unlocalizedName, String regitryName) {
+		DumpBlocks(String unlocalizedName, String regitryName) {
 			this.unlocalizedName = unlocalizedName;
 			this.registryName = regitryName;
 			
@@ -40,20 +41,19 @@ public class Reference {
 		}
 	}
 	
-	public static enum DumpBlocks {
-		
-		PAPER("blockPaper", "BlockPaper"),
-		FIREPIT("firePit", "FirePit"),
-		ARROW_LEFT("blockArrowLeft", "BlockArrowLeft"),
-		ARROW_RIGHT("blockArrowRight", "BlockArrowRight"),
-		CONCRETE_POWDER("blockConcretePowder", "BlockConcretePowder"),
-		CONCRETE("blockConcrete", "BlockConcrete"),
-		FANCY_TORCH("blockFancyTorch", "BlockFancyTorch");
+	public static enum DumpItems {
+		FROSTIES("itemFrosties", "ItemFrosties"),
+		FROSTIES_BOWL("itemFrostiesBowl", "ItemFrostiesBowl"),
+		CAKE_BITS("itemCakeBits", "ItemCakeBits"),
+		FANCY_STICK("itemFancyStick", "ItemFancyStick"),
+		CONCRETE_POWDER("itemBlockConcretePowder", "ItemBlockConcretePowder"),
+		CONCRETE("itemBlockConcrete", "ItemBlockConcrete"),
+		RECORD_TEST("itemRecordTest", "ItemRecordTest");
 		
 		private String unlocalizedName;
 		private String registryName;
 		
-		DumpBlocks(String unlocalizedName, String regitryName) {
+		DumpItems(String unlocalizedName, String regitryName) {
 			this.unlocalizedName = unlocalizedName;
 			this.registryName = regitryName;
 			

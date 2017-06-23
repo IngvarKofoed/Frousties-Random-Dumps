@@ -1,7 +1,7 @@
 package com.randomdumps.mod.items;
 
 import com.randomdumps.mod.Reference;
-import com.randomdumps.mod.blocks.BlockConcretePowder;
+import com.randomdumps.mod.blocks.BlockConcrete;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemCloth;
@@ -26,7 +26,7 @@ public class ItemBlockConcrete extends ItemCloth {
 	@Override
 	public String getUnlocalizedName(ItemStack stack)
 	{
-		BlockConcretePowder.EnumColor color = BlockConcretePowder.EnumColor.byMetadata(stack.getMetadata());
+		BlockConcrete.EnumColor color = BlockConcrete.EnumColor.byMetadata(stack.getMetadata());
 		return super.getUnlocalizedName() + "." + color.toString();
 	}
 }

@@ -23,8 +23,8 @@ public class RandomItems extends Item {
 	public static Item itemFancyStick;
 	public static Item itemCakeBits;
 	public static Item itemRecordTest;
-	public static Item itemBlockConcrete;
 	public static Item itemBlockConcretePowder;
+	public static Item itemBlockConcrete;
 	
 	public static void init() {
 		itemFrosties = new ItemFrosties();
@@ -32,8 +32,8 @@ public class RandomItems extends Item {
 		itemFancyStick = new ItemFancyStick();
 		itemCakeBits = new ItemCakeBits();
 		itemRecordTest = new ItemRecordTest("test", RandomSounds.RECORD_TEST);
-		itemBlockConcrete = new ItemBlockConcrete(RandomBlocks.blockConcrete);
 		itemBlockConcretePowder = new ItemBlockConcretePowder(RandomBlocks.blockConcretePowder);
+		itemBlockConcrete = new ItemBlockConcrete(RandomBlocks.blockConcrete);
 	}
 	
 	public static void register() {
@@ -42,8 +42,8 @@ public class RandomItems extends Item {
 		GameRegistry.register(itemFancyStick);
 		GameRegistry.register(itemCakeBits);
 		GameRegistry.register(itemRecordTest);
-		GameRegistry.register(itemBlockConcrete);
 		GameRegistry.register(itemBlockConcretePowder);
+		GameRegistry.register(itemBlockConcrete);
 		
 		ModelResourceLocation itemModelResourceLocation = new ModelResourceLocation("randomdumps:BlockConcretePowder", "inventory");
 	    ModelLoader.setCustomModelResourceLocation(RandomItems.itemBlockConcretePowder, BlockConcretePowder.EnumColor.WHITE.getMetadata(), itemModelResourceLocation);
@@ -118,8 +118,8 @@ public class RandomItems extends Item {
 		registerRender(itemFancyStick);
 		registerRender(itemCakeBits);
 		registerRender(itemRecordTest);
-		registerRender(itemBlockConcrete);
 		registerRender(itemBlockConcretePowder);
+		registerRender(itemBlockConcrete);
 	}
 	
 	public static void registerRender(Item item) {
