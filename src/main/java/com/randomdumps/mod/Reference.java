@@ -48,6 +48,7 @@ public class Reference {
 		FANCY_STICK("itemFancyStick", "ItemFancyStick"),
 		CONCRETE_POWDER("itemBlockConcretePowder", "ItemBlockConcretePowder"),
 		CONCRETE("itemBlockConcrete", "ItemBlockConcrete"),
+		FOUR_IN_ONE("toolFourInOne", "ToolFourInOne"),
 		RECORD_TEST("itemRecordTest", "ItemRecordTest");
 		
 		private String unlocalizedName;

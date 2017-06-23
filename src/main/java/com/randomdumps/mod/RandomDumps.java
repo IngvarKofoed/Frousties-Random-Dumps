@@ -4,6 +4,7 @@ import com.randomdumps.mod.init.RandomBlocks;
 import com.randomdumps.mod.init.RandomCrafting;
 import com.randomdumps.mod.init.RandomItems;
 import com.randomdumps.mod.init.RandomMobs;
+import com.randomdumps.mod.init.RandomTools;
 import com.randomdumps.mod.proxy.CommonProxy;
 import com.randomdumps.mod.tileentity.TileEntityFirePit;
 
@@ -32,9 +33,11 @@ public class RandomDumps {
 		System.out.println("Pre Initialization");
 		
 		RandomBlocks.init();
-		RandomBlocks.register();
-	
+		RandomTools.init();
 		RandomItems.init();
+		
+		RandomBlocks.register();
+		RandomTools.register();
 		RandomItems.register();
 	}
 	
