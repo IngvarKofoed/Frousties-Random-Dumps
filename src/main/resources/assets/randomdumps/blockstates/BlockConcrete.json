@@ -1,5 +1,21 @@
 {
     "variants": {
-        "normal": { "model": "randomdumps:BlockConcrete" }
+        "color=purple" : { "model": "randomdumps:BlockConcretePurple" },
+		"color=blue": { "model": "randomdumps:BlockConcreteBlue" },
+		"color=magenta": { "model": "randomdumps:BlockConcreteMagenta" },
+		"color=light_blue": { "model": "randomdumps:BlockConcreteLightBlue" },
+		"color=cyan": { "model": "randomdumps:BlockConcreteCyan" },
+		"color=pink": { "model": "randomdumps:BlockConcretePink" },
+		"color=brown": { "model": "randomdumps:BlockConcreteBrown" },
+		"color=white": { "model": "randomdumps:BlockConcrete" },
+		"color=silver": { "model": "randomdumps:BlockConcreteSilver" },
+		"color=pink": { "model": "randomdumps:BlockConcretePink" },
+		"color=yellow": { "model": "randomdumps:BlockConcreteYellow" },
+		"color=lime": { "model": "randomdumps:BlockConcreteLime" },
+		"color=orange": { "model": "randomdumps:BlockConcreteOrange" },
+		"color=green": { "model": "randomdumps:BlockConcreteGreen" },
+		"color=black": { "model": "randomdumps:BlockConcreteBlack" },
+		"color=gray": { "model": "randomdumps:BlockConcreteGray" },
+		"color=red": { "model": "randomdumps:BlockConcreteRed" }
     }
 }

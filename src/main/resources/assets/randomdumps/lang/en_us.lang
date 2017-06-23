@@ -30,6 +30,23 @@ tile.blockConcretePowder.green.name=Green Concrete Powder
 tile.blockConcretePowder.red.name=Red Concrete Powder
 tile.blockConcretePowder.black.name=Black Concrete Powder
 
+tile.blockConcrete.white.name=White Concrete
+tile.blockConcrete.orange.name=Orange Concrete
+tile.blockConcrete.magenta.name=Magenta Concrete
+tile.blockConcrete.light_blue.name=Light Blue Concrete
+tile.blockConcrete.yellow.name=Yellow Concrete
+tile.blockConcrete.lime.name=Lime Concrete
+tile.blockConcrete.pink.name=Pink Concrete
+tile.blockConcrete.gray.name=Gray Concrete
+tile.blockConcrete.silver.name=Light Gray Concrete
+tile.blockConcrete.cyan.name=Cyan Concrete
+tile.blockConcrete.purple.name=Purple Concrete
+tile.blockConcrete.blue.name=Blue Concrete
+tile.blockConcrete.brown.name=Brown Concrete
+tile.blockConcrete.green.name=Green Concrete
+tile.blockConcrete.red.name=Red Concrete
+tile.blockConcrete.black.name=Black Concrete
+
 tile.blockConcrete.name=Concrete
 
 entity.randomdumps.Cupcake.name=Cupcake

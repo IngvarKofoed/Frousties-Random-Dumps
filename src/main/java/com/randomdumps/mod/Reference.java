@@ -14,7 +14,8 @@ public class Reference {
 		FROSTIES_BOWL("itemFrostiesBowl", "ItemFrostiesBowl"),
 		CAKE_BITS("itemCakeBits", "ItemCakeBits"),
 		FANCY_STICK("itemFancyStick", "ItemFancyStick"),
-		CONCRETE_POWDER("itemBlockConcrete", "ItemBlockConcrete"),
+		CONCRETE("itemBlockConcrete", "ItemBlockConcrete"),
+		CONCRETE_POWDER("itemBlockConcretePowder", "ItemBlockConcretePowder"),
 		RECORD_TEST("itemRecordTest", "ItemRecordTest");
 		
 		private String unlocalizedName;
