@@ -1,5 +1,6 @@
 package com.randomdumps.mod.init;
 
+import com.randomdumps.mod.items.ItemBlockConcrete;
 import com.randomdumps.mod.items.ItemCakeBits;
 import com.randomdumps.mod.items.ItemFancyStick;
 import com.randomdumps.mod.items.ItemFrosties;
@@ -18,6 +19,7 @@ public class RandomItems extends Item {
 	public static Item itemFancyStick;
 	public static Item itemCakeBits;
 	public static Item itemRecordTest;
+	public static Item itemBlockConcrete;
 	
 	public static void init() {
 		itemFrosties = new ItemFrosties();
@@ -25,6 +27,7 @@ public class RandomItems extends Item {
 		itemFancyStick = new ItemFancyStick();
 		itemCakeBits = new ItemCakeBits();
 		itemRecordTest = new ItemRecordTest("test", RandomSounds.RECORD_TEST);
+		itemBlockConcrete = new ItemBlockConcrete(RandomBlocks.blockConcretePowder);
 	}
 	
 	public static void register() {
@@ -33,6 +36,7 @@ public class RandomItems extends Item {
 		GameRegistry.register(itemFancyStick);
 		GameRegistry.register(itemCakeBits);
 		GameRegistry.register(itemRecordTest);
+		GameRegistry.register(itemBlockConcrete);
 	}
 	
 	public static void registerRenders() {
@@ -41,6 +45,7 @@ public class RandomItems extends Item {
 		registerRender(itemFancyStick);
 		registerRender(itemCakeBits);
 		registerRender(itemRecordTest);
+		registerRender(itemBlockConcrete);
 	}
 	
 	public static void registerRender(Item item) {

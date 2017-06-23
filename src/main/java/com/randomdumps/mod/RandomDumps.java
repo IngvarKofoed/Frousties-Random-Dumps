@@ -1,5 +1,6 @@
 package com.randomdumps.mod;
 
+import com.randomdumps.mod.blocks.BlockConcretePowder;
 import com.randomdumps.mod.init.RandomBlocks;
 import com.randomdumps.mod.init.RandomCrafting;
 import com.randomdumps.mod.init.RandomItems;
@@ -9,7 +10,9 @@ import com.randomdumps.mod.init.RandomSounds;
 import com.randomdumps.mod.proxy.CommonProxy;
 import com.randomdumps.mod.tileentity.TileEntityFirePit;
 
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -49,7 +52,16 @@ public class RandomDumps {
 		RandomCrafting.register();
 		RandomMobs.register();
 		
-		GameRegistry.registerTileEntity(TileEntityFirePit.class, Reference.MOD_ID + "TileEntityFirePit");
+		ModelResourceLocation itemModelResourceLocation = new ModelResourceLocation("randomdumps:BlockConcretePowderBlue", "inventory");
+	    ModelLoader.setCustomModelResourceLocation(RandomItems.itemBlockConcrete, BlockConcretePowder.EnumColor.BLUE.getMetadata(), itemModelResourceLocation);
+	    itemModelResourceLocation = new ModelResourceLocation("randomdumps:BlockConcretePowderGreen", "inventory");
+	    ModelLoader.setCustomModelResourceLocation(RandomItems.itemBlockConcrete, BlockConcretePowder.EnumColor.GREEN.getMetadata(), itemModelResourceLocation);
+	    itemModelResourceLocation = new ModelResourceLocation("randomdumps:BlockConcretePowderRed", "inventory");
+	    ModelLoader.setCustomModelResourceLocation(RandomItems.itemBlockConcrete, BlockConcretePowder.EnumColor.RED.getMetadata(), itemModelResourceLocation);
+	    itemModelResourceLocation = new ModelResourceLocation("randomdumps:BlockConcretePowderYellow", "inventory");
+	    ModelLoader.setCustomModelResourceLocation(RandomItems.itemBlockConcrete, BlockConcretePowder.EnumColor.YELLOW.getMetadata(), itemModelResourceLocation);
+		
+	    GameRegistry.registerTileEntity(TileEntityFirePit.class, Reference.MOD_ID + "TileEntityFirePit");
 	}
 	
 	@EventHandler

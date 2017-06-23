@@ -26,11 +26,64 @@ import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.World;
 
 public class BlockConcretePowder extends BlockColored {
+	public static final PropertyEnum<EnumDyeColor> COLOR = PropertyEnum.<EnumDyeColor>create("color", EnumDyeColor.class);
+
 	public BlockConcretePowder() {
 		super(Material.SAND);
 		setUnlocalizedName(Reference.DumpBlocks.CONCRETE_POWDER.getUnlocalizedName());
 		setRegistryName(Reference.DumpBlocks.CONCRETE_POWDER.getRegistryName());
 		setCreativeTab(RandomDumps.RANDOM_TAB);
 		setSoundType(blockSoundType.GROUND);
+	}
+	
+	public static enum EnumColor implements IStringSerializable
+	{
+		BLUE(0, "blue"),
+	    RED(1, "red"),
+	    GREEN(2, "green"),
+	    YELLOW(3, "yellow");
+
+		public int getMetadata()
+		{
+			return this.meta;
+		}
+
+	    @Override
+	    public String toString()
+	    {
+	    	return this.name;
+	    }
+
+	    public static EnumColor byMetadata(int meta)
+	    {
+	    	if (meta < 0 || meta >= META_LOOKUP.length)
+	    	{
+	    		meta = 0;
+	    	}
+
+	    	return META_LOOKUP[meta];
+	    }
+
+	    public String getName()
+	    {
+	    	return this.name;
+	    }
+
+	    private final int meta;
+	    private final String name;
+	    private static final EnumColor[] META_LOOKUP = new EnumColor[values().length];
+
+	    private EnumColor(int i_meta, String i_name)
+	    {
+	    	this.meta = i_meta;
+	    	this.name = i_name;
+	    }
+
+	    static
+	    {
+	    	for (EnumColor color : values()) {
+	    		META_LOOKUP[color.getMetadata()] = color;
+	    	}
+	    }
 	}
 }
