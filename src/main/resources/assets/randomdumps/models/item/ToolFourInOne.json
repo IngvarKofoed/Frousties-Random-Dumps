@@ -1,6 +1,6 @@
 {
-    "parent": "builtin/handheld",
+    "parent": "item/generated",
     "textures": {
-        "layer0": "randomdumps:items/ToolFourInOne"
+        "layer0": "randomdumps:items/tools/ToolFourInOne"
     }
 }

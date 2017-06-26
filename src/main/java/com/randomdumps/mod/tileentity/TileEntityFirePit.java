@@ -3,6 +3,7 @@ package com.randomdumps.mod.tileentity;
 import com.randomdumps.mod.init.RandomBlocks;
 
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.client.renderer.texture.ITickable;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
@@ -10,9 +11,10 @@ import net.minecraft.network.NetworkManager;
 import net.minecraft.network.play.server.SPacketUpdateTileEntity;
 import net.minecraft.tileentity.TileEntity;
 
-public class TileEntityFirePit extends TileEntity {
+public class TileEntityFirePit extends TileEntity implements ITickable {
 	public static int fuelCount = 0;
-	
+	private int cooldown = 0;
+
 	public boolean addFuel() {
 		if(fuelCount < 4) {
 			fuelCount++;
@@ -34,44 +36,70 @@ public class TileEntityFirePit extends TileEntity {
 		}
 	}
 	
-	@Override
-	public NBTTagCompound writeToNBT(NBTTagCompound compound) {
-		super.writeToNBT(compound);
-		compound.setInteger("FuelCount", this.fuelCount);	
-		return compound;
-	}
 	
 	@Override
 	public void readFromNBT(NBTTagCompound compound) {
-		super.readFromNBT(compound);
 		this.fuelCount = compound.getInteger("FuelCount");
+		this.cooldown = compound.getInteger("Cooldown");
+		super.readFromNBT(compound);
 	}
 	
 	@Override
-	public void onDataPacket(NetworkManager net, SPacketUpdateTileEntity pkt) {
-		NBTTagCompound tag = pkt.getNbtCompound();
-		readUpdateTag(tag);
+	public NBTTagCompound writeToNBT(NBTTagCompound compound) {
+		compound.setInteger("FuelCount", this.fuelCount);	
+		compound.setInteger("Cooldown", this.cooldown);	
+		return super.writeToNBT(compound);
+	}
+	
+	@Override
+	public void tick() {
+		if(this.worldObj != null) {
+			this.cooldown++;
+			this.cooldown %= 100;
+			System.out.println("Cooldown: " + this.cooldown);
+		
+			if(this.cooldown == 100) {
+				this.fuelCount--;
+			}
+		}
 	}
 	
 	@Override
 	public SPacketUpdateTileEntity getUpdatePacket() {
 		NBTTagCompound tag = new NBTTagCompound();
-		this.writeUpdateTag(tag);
-		return new SPacketUpdateTileEntity(pos, getBlockMetadata(), tag);
+		this.writeToNBT(tag);
+		return new SPacketUpdateTileEntity(this.pos, getBlockMetadata(), tag);
+	}
+	
+	
+	@Override
+	public void onDataPacket(NetworkManager net, SPacketUpdateTileEntity pkt) {
+		this.readFromNBT(pkt.getNbtCompound());
 	}
 	
 	@Override
 	public NBTTagCompound getUpdateTag() {
-		NBTTagCompound tag = super.getUpdateTag();
-		writeUpdateTag(tag);
+		NBTTagCompound tag = new NBTTagCompound();
+		this.writeToNBT(tag);
 		return tag;
 	}
 	
-	public void writeUpdateTag(NBTTagCompound tag) {
-		tag.setInteger("FuelCount", this.fuelCount);
+	@Override
+	public void handleUpdateTag(NBTTagCompound tag) {
+		this.readFromNBT(tag);
 	}
 	
-	public void readUpdateTag(NBTTagCompound tag) {
-		this.fuelCount = tag.getInteger("FuelCount");
+	public NBTTagCompound getTileData() {
+		NBTTagCompound tag = new NBTTagCompound();
+		this.writeToNBT(tag);
+		return tag;
 	}
+	
+//	public void writeUpdateTag(NBTTagCompound tag) {
+//		tag.setInteger("FuelCount", this.fuelCount);
+//	}
+//	
+//	public void readUpdateTag(NBTTagCompound tag) {
+//		this.fuelCount = tag.getInteger("FuelCount");
+//	}
 }

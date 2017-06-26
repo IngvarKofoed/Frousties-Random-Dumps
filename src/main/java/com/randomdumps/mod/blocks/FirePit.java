@@ -69,9 +69,6 @@ public class FirePit extends Block implements ITileEntityProvider {
 
 	@Override
 	public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumHand hand, ItemStack heldItem, EnumFacing side, float hitX, float hitY, float hitZ) {
-		
-		worldIn.playSound(playerIn, pos, RandomSounds.REWARD, SoundCategory.BLOCKS, 1.0F, 1.0F);
-		
 		if(!worldIn.isRemote) {
 			TileEntity tileEntity = worldIn.getTileEntity(pos);
 			if(tileEntity instanceof TileEntityFirePit) {
@@ -89,6 +86,10 @@ public class FirePit extends Block implements ITileEntityProvider {
 			}
 		}
 		return true;
+	}
+	
+	public TileEntity createTileEntity(World world, IBlockState state) {
+		return new TileEntityFirePit();
 	}
 	
 	@Override

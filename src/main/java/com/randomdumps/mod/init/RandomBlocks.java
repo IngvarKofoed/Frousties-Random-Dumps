@@ -43,8 +43,8 @@ public class RandomBlocks {
 		registerBlock(blockArrowLeft);
 		registerBlock(blockArrowRight);
 		registerBlock(blockFancyTorch);
-		registerBlock(blockConcretePowder);
-		registerBlock(blockConcrete);
+		registerColorBlock(blockConcretePowder);
+		registerColorBlock(blockConcrete);
 	}
 	
 	public static void registerBlock(Block block) {
@@ -52,6 +52,13 @@ public class RandomBlocks {
 		ItemBlock item = new ItemBlock(block);
 		item.setRegistryName(block.getRegistryName());
 		GameRegistry.register(item);
+	}
+	
+	public static void registerColorBlock(Block block) {
+		GameRegistry.register(block);
+		//ItemBlock item = new ItemBlock(block);
+		//item.setRegistryName(block.getRegistryName());
+		//GameRegistry.register(item);
 	}
 	
 	public static void registerRenders() {

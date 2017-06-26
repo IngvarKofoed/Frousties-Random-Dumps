@@ -48,8 +48,6 @@ tile.blockConcrete.green.name=Green Concrete
 tile.blockConcrete.red.name=Red Concrete
 tile.blockConcrete.black.name=Black Concrete
 
-tile.blockConcrete.name=Concrete
-
 entity.randomdumps.Cupcake.name=Cupcake
 
 itemGroup.tabRandom=Frousties' Random Dumps
