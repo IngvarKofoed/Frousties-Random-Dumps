@@ -1,21 +1,21 @@
 {
     "variants": {
-        "color=purple" : { "model": "randomdumps:BlockConcretePurple" },
-		"color=blue": { "model": "randomdumps:BlockConcreteBlue" },
-		"color=magenta": { "model": "randomdumps:BlockConcreteMagenta" },
-		"color=light_blue": { "model": "randomdumps:BlockConcreteLightBlue" },
-		"color=cyan": { "model": "randomdumps:BlockConcreteCyan" },
-		"color=pink": { "model": "randomdumps:BlockConcretePink" },
-		"color=brown": { "model": "randomdumps:BlockConcreteBrown" },
-		"color=white": { "model": "randomdumps:BlockConcrete" },
-		"color=silver": { "model": "randomdumps:BlockConcreteSilver" },
-		"color=pink": { "model": "randomdumps:BlockConcretePink" },
-		"color=yellow": { "model": "randomdumps:BlockConcreteYellow" },
-		"color=lime": { "model": "randomdumps:BlockConcreteLime" },
-		"color=orange": { "model": "randomdumps:BlockConcreteOrange" },
-		"color=green": { "model": "randomdumps:BlockConcreteGreen" },
-		"color=black": { "model": "randomdumps:BlockConcreteBlack" },
-		"color=gray": { "model": "randomdumps:BlockConcreteGray" },
-		"color=red": { "model": "randomdumps:BlockConcreteRed" }
+        "color=purple" : { "model": "randomdumps:Concrete/BlockConcretePurple" },
+		"color=blue": { "model": "randomdumps:Concrete/BlockConcreteBlue" },
+		"color=magenta": { "model": "randomdumps:Concrete/BlockConcreteMagenta" },
+		"color=light_blue": { "model": "randomdumps:Concrete/BlockConcreteLightBlue" },
+		"color=cyan": { "model": "randomdumps:Concrete/BlockConcreteCyan" },
+		"color=pink": { "model": "randomdumps:Concrete/BlockConcretePink" },
+		"color=brown": { "model": "randomdumps:Concrete/BlockConcreteBrown" },
+		"color=white": { "model": "randomdumps:Concrete/BlockConcrete" },
+		"color=silver": { "model": "randomdumps:Concrete/BlockConcreteSilver" },
+		"color=pink": { "model": "randomdumps:Concrete/BlockConcretePink" },
+		"color=yellow": { "model": "randomdumps:Concrete/BlockConcreteYellow" },
+		"color=lime": { "model": "randomdumps:Concrete/BlockConcreteLime" },
+		"color=orange": { "model": "randomdumps:Concrete/BlockConcreteOrange" },
+		"color=green": { "model": "randomdumps:Concrete/BlockConcreteGreen" },
+		"color=black": { "model": "randomdumps:Concrete/BlockConcreteBlack" },
+		"color=gray": { "model": "randomdumps:Concrete/BlockConcreteGray" },
+		"color=red": { "model": "randomdumps:Concrete/BlockConcreteRed" }
     }
 }

@@ -48,6 +48,23 @@ tile.blockConcrete.green.name=Green Concrete
 tile.blockConcrete.red.name=Red Concrete
 tile.blockConcrete.black.name=Black Concrete
 
+tile.blockUnrational.white.name=§4§k/§r§4Error§k/§r§fUnrational White
+tile.blockUnrational.orange.name=§4§k/§r§4Error§k/§r§fUnrational Orange
+tile.blockUnrational.magenta.name=§4§k/§r§4Error§k/§r§fUnrational Magenta
+tile.blockUnrational.light_blue.name=§4§k/§r§4Error§k/§r§fUnrational Light Blue
+tile.blockUnrational.yellow.name=§4§k/§r§4Error§k/§r§fUnrational Yellow
+tile.blockUnrational.lime.name=§4§k/§r§4Error§k/§r§fUnrational Lime
+tile.blockUnrational.pink.name=§4§k/§r§4Error§k/§r§fUnrational Pink
+tile.blockUnrational.gray.name=§4§k/§r§4Error§k/§r§fUnrational Gray
+tile.blockUnrational.silver.name=§4§k/§r§4Error§k/§r§fUnrational Light Gray
+tile.blockUnrational.cyan.name=§4§k/§r§4Error§k/§r§fUnrational Cyan
+tile.blockUnrational.purple.name=§4§k/§r§4Error§k/§r§fUnrational Purple
+tile.blockUnrational.blue.name=§4§k/§r§4Error§k/§r§fUnrational Blue
+tile.blockUnrational.brown.name=§4§k/§r§4Error§k/§r§fUnrational Brown
+tile.blockUnrational.green.name=§4§k/§r§4Error§k/§r§fUnrational Green
+tile.blockUnrational.red.name=§4§k/§r§4Error§k/§r§fUnrational Red
+tile.blockUnrational.black.name=§4§k/§r§4Error§k/§r§fUnrational Black
+
 entity.randomdumps.Cupcake.name=Cupcake
 
 itemGroup.tabRandom=Frousties' Random Dumps
@@ -65,3 +82,5 @@ randomdumps.chocobo.Death=Chocobo Dead D:
 randomdumps.chocobo.Step=Chocobo Steps
 
 randomdumps.Test=Test
+
+unrational.desc=Even the name is §kUnrational§r !

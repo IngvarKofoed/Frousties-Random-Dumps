@@ -2,12 +2,68 @@ item.itemFrosties.name=Frosties
 item.itemFrostiesBowl.name=Frostiesschüssel
 item.itemFancyStick.name=Schick Stock
 item.itemCakeBits.name=Kuche Bits
+item.toolFourInOne.name=4 in 1 Werkzug !
+
+item.itemRecordTest.name=Musik Disk
+
+item.record.test.desc=LeeandLie - PAPERMOON
 
 tile.blockPaper.name=Papierblock
 tile.firePit.name=Feuergrube
 tile.blockArrowLeft.name=Pfeil (Links)
 tile.blockArrowRight.name=Pfeil (Rechts)
 tile.blockFancyTorch.name=Schick Fackel
+
+tile.blockConcretePowder.white.name=Weiße Betonpuder
+tile.blockConcretePowder.orange.name=Orange Betonpuder
+tile.blockConcretePowder.magenta.name=Magenta Betonpuder
+tile.blockConcretePowder.light_blue.name=Hellblaue Betonpuder
+tile.blockConcretePowder.yellow.name=Gelbe Betonpuder
+tile.blockConcretePowder.lime.name=Hellgrüne Betonpuder
+tile.blockConcretePowder.pink.name=Rosa Betonpuder
+tile.blockConcretePowder.gray.name=Graue Betonpuder
+tile.blockConcretePowder.silver.name=Hellgraue Betonpuder
+tile.blockConcretePowder.cyan.name=Türkise Betonpuder
+tile.blockConcretePowder.purple.name=Violette Betonpuder
+tile.blockConcretePowder.blue.name=Blaue Betonpuder
+tile.blockConcretePowder.brown.name=Braune Betonpuder
+tile.blockConcretePowder.green.name=Grüne Betonpuder
+tile.blockConcretePowder.red.name=Rote Betonpuder
+tile.blockConcretePowder.black.name=Schwarze Betonpuder
+
+tile.blockConcrete.white.name=Weiße Beton
+tile.blockConcrete.orange.name=Orange Beton
+tile.blockConcrete.magenta.name=Magenta Beton
+tile.blockConcrete.light_blue.name=Hellblaue Beton
+tile.blockConcrete.yellow.name=Gelbe Beton
+tile.blockConcrete.lime.name=Hellgrüne Beton
+tile.blockConcrete.pink.name=Rosa Beton
+tile.blockConcrete.gray.name=Graue Beton
+tile.blockConcrete.silver.name=Hellgraue Beton
+tile.blockConcrete.cyan.name=Türkise Beton
+tile.blockConcrete.purple.name=Violette Beton
+tile.blockConcrete.blue.name=Blaue Beton
+tile.blockConcrete.brown.name=Braune Beton
+tile.blockConcrete.green.name=Grüne Beton
+tile.blockConcrete.red.name=Rote Beton
+tile.blockConcrete.black.name=Schwarze Beton
+
+tile.blockUnrational.white.name=§4§k/§r§4Error§k/§r§fUnrational Weiß
+tile.blockUnrational.orange.name=§4§k/§r§4Error§k/§r§fUnrational Orange
+tile.blockUnrational.magenta.name=§4§k/§r§4Error§k/§r§fUnrational Magenta
+tile.blockUnrational.light_blue.name=§4§k/§r§4Error§k/§r§fUnrational Hellblau
+tile.blockUnrational.yellow.name=§4§k/§r§4Error§k/§r§fUnrational Gelb
+tile.blockUnrational.lime.name=§4§k/§r§4Error§k/§r§fUnrational Hellgrün
+tile.blockUnrational.pink.name=§4§k/§r§4Error§k/§r§fUnrational Rosa
+tile.blockUnrational.gray.name=§4§k/§r§4Error§k/§r§fUnrational Grau
+tile.blockUnrational.silver.name=§4§k/§r§4Error§k/§r§fUnrational Hellgrau
+tile.blockUnrational.cyan.name=§4§k/§r§4Error§k/§r§fUnrational Türkis
+tile.blockUnrational.purple.name=§4§k/§r§4Error§k/§r§fUnrational Violett
+tile.blockUnrational.blue.name=§4§k/§r§4Error§k/§r§fUnrational Blau
+tile.blockUnrational.brown.name=§4§k/§r§4Error§k/§r§fUnrational Braun
+tile.blockUnrational.green.name=§4§k/§r§4Error§k/§r§fUnrational Grün
+tile.blockUnrational.red.name=§4§k/§r§4Error§k/§r§fUnrational Rot
+tile.blockUnrational.black.name=§4§k/§r§4Error§k/§r§fUnrational Schwarz
 
 entity.randomdumps.Cupcake.name=Cupcake
 
@@ -22,3 +78,5 @@ randomdumps.chocobo.Kweh=KWEH
 randomdumps.chocobo.Hurt=Chocobo Verletzt :c
 randomdumps.chocobo.Death=Chocobo Gestorben D:
 randomdumps.chocobo.Step=Chocobos Schritte
+
+unrational.desc=Der Name ist sogar §kUnrational§r !

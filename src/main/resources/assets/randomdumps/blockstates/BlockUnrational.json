@@ -1,0 +1,21 @@
+{
+    "variants": {
+        "color=purple" : { "model": "randomdumps:Unrational/BlockUnrationalPurple" },
+		"color=blue": { "model": "randomdumps:Unrational/BlockUnrationalBlue" },
+		"color=magenta": { "model": "randomdumps:Unrational/BlockUnrationalMagenta" },
+		"color=light_blue": { "model": "randomdumps:Unrational/BlockUnrationalLightBlue" },
+		"color=cyan": { "model": "randomdumps:Unrational/BlockUnrationalCyan" },
+		"color=pink": { "model": "randomdumps:Unrational/BlockUnrationalPink" },
+		"color=brown": { "model": "randomdumps:Unrational/BlockUnrationalBrown" },
+		"color=white": { "model": "randomdumps:Unrational/BlockUnrational" },
+		"color=silver": { "model": "randomdumps:Unrational/BlockUnrationalSilver" },
+		"color=pink": { "model": "randomdumps:Unrational/BlockUnrationalPink" },
+		"color=yellow": { "model": "randomdumps:Unrational/BlockUnrationalYellow" },
+		"color=lime": { "model": "randomdumps:Unrational/BlockUnrationalLime" },
+		"color=orange": { "model": "randomdumps:Unrational/BlockUnrationalOrange" },
+		"color=green": { "model": "randomdumps:Unrational/BlockUnrationalGreen" },
+		"color=black": { "model": "randomdumps:Unrational/BlockUnrationalBlack" },
+		"color=gray": { "model": "randomdumps:Unrational/BlockUnrationalGray" },
+		"color=red": { "model": "randomdumps:Unrational/BlockUnrationalRed" }
+    }
+}

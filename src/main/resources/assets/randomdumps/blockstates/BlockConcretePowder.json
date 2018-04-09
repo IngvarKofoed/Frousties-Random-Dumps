@@ -1,21 +1,21 @@
 {
     "variants": {
-        "color=purple" : { "model": "randomdumps:BlockConcretePowderPurple" },
-		"color=blue": { "model": "randomdumps:BlockConcretePowderBlue" },
-		"color=magenta": { "model": "randomdumps:BlockConcretePowderMagenta" },
-		"color=light_blue": { "model": "randomdumps:BlockConcretePowderLightBlue" },
-		"color=cyan": { "model": "randomdumps:BlockConcretePowderCyan" },
-		"color=pink": { "model": "randomdumps:BlockConcretePowderPink" },
-		"color=brown": { "model": "randomdumps:BlockConcretePowderBrown" },
-		"color=white": { "model": "randomdumps:BlockConcretePowder" },
-		"color=silver": { "model": "randomdumps:BlockConcretePowderSilver" },
-		"color=pink": { "model": "randomdumps:BlockConcretePowderPink" },
-		"color=yellow": { "model": "randomdumps:BlockConcretePowderYellow" },
-		"color=lime": { "model": "randomdumps:BlockConcretePowderLime" },
-		"color=orange": { "model": "randomdumps:BlockConcretePowderOrange" },
-		"color=green": { "model": "randomdumps:BlockConcretePowderGreen" },
-		"color=black": { "model": "randomdumps:BlockConcretePowderBlack" },
-		"color=gray": { "model": "randomdumps:BlockConcretePowderGray" },
-		"color=red": { "model": "randomdumps:BlockConcretePowderRed" }
+        "color=purple" : { "model": "randomdumps:ConcretePowder/BlockConcretePowderPurple" },
+		"color=blue": { "model": "randomdumps:ConcretePowder/BlockConcretePowderBlue" },
+		"color=magenta": { "model": "randomdumps:ConcretePowder/BlockConcretePowderMagenta" },
+		"color=light_blue": { "model": "randomdumps:ConcretePowder/BlockConcretePowderLightBlue" },
+		"color=cyan": { "model": "randomdumps:ConcretePowder/BlockConcretePowderCyan" },
+		"color=pink": { "model": "randomdumps:ConcretePowder/BlockConcretePowderPink" },
+		"color=brown": { "model": "randomdumps:ConcretePowder/BlockConcretePowderBrown" },
+		"color=white": { "model": "randomdumps:ConcretePowder/BlockConcretePowder" },
+		"color=silver": { "model": "randomdumps:ConcretePowder/BlockConcretePowderSilver" },
+		"color=pink": { "model": "randomdumps:ConcretePowder/BlockConcretePowderPink" },
+		"color=yellow": { "model": "randomdumps:ConcretePowder/BlockConcretePowderYellow" },
+		"color=lime": { "model": "randomdumps:ConcretePowder/BlockConcretePowderLime" },
+		"color=orange": { "model": "randomdumps:ConcretePowder/BlockConcretePowderOrange" },
+		"color=green": { "model": "randomdumps:ConcretePowder/BlockConcretePowderGreen" },
+		"color=black": { "model": "randomdumps:ConcretePowder/BlockConcretePowderBlack" },
+		"color=gray": { "model": "randomdumps:ConcretePowder/BlockConcretePowderGray" },
+		"color=red": { "model": "randomdumps:ConcretePowder/BlockConcretePowderRed" }
     }
 }

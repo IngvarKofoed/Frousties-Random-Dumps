@@ -17,6 +17,7 @@ public class Reference {
 		ARROW_RIGHT("blockArrowRight", "BlockArrowRight"),
 		CONCRETE_POWDER("blockConcretePowder", "BlockConcretePowder"),
 		CONCRETE("blockConcrete", "BlockConcrete"),
+		UNRATIONAL("blockUnrational", "BlockUnrational"),
 		FANCY_TORCH("blockFancyTorch", "BlockFancyTorch");
 		
 		private String unlocalizedName;
@@ -48,6 +49,7 @@ public class Reference {
 		FANCY_STICK("itemFancyStick", "ItemFancyStick"),
 		CONCRETE_POWDER("itemBlockConcretePowder", "ItemBlockConcretePowder"),
 		CONCRETE("itemBlockConcrete", "ItemBlockConcrete"),
+		UNRATIONAL("itemBlockUnrational", "ItemBlockUnrational"),
 		FOUR_IN_ONE("toolFourInOne", "ToolFourInOne"),
 		RECORD_TEST("itemRecordTest", "ItemRecordTest");
 		

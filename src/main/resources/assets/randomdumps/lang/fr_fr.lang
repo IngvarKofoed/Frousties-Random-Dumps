@@ -2,6 +2,61 @@ item.itemFrosties.name=Frosties
 item.itemFrostiesBowl.name=Bol de Frosties
 item.itemFancyStick.name=Bâton Chic
 item.itemCakeBits.name=Miettes de Gâteau
+item.toolFourInOne.name=Outil 4 en 1 !
+
+item.itemRecordTest.name=Disque de Musique
+item.record.test.desc=LeeandLie - PAPERMOON
+
+tile.blockConcretePowder.white.name=Poudre de Béton blanche
+tile.blockConcretePowder.orange.name=Poudre de Béton orange
+tile.blockConcretePowder.magenta.name=Poudre de Béton magenta
+tile.blockConcretePowder.light_blue.name=Poudre de Béton bleu clair
+tile.blockConcretePowder.yellow.name=Poudre de Béton jaune
+tile.blockConcretePowder.lime.name=Poudre de Béton vert clair
+tile.blockConcretePowder.pink.name=Poudre de Béton rose
+tile.blockConcretePowder.gray.name=Poudre de Béton grise
+tile.blockConcretePowder.silver.name=Poudre de Béton gris clair
+tile.blockConcretePowder.cyan.name=Poudre de Béton cyan
+tile.blockConcretePowder.purple.name=Poudre de Béton violette
+tile.blockConcretePowder.blue.name=Poudre de Béton bleu
+tile.blockConcretePowder.brown.name=Poudre de Béton marron
+tile.blockConcretePowder.green.name=Poudre de Béton verte
+tile.blockConcretePowder.red.name=Poudre de Béton rouge
+tile.blockConcretePowder.black.name=Poudre de Béton noire
+
+tile.blockConcrete.white.name=Béton blanc
+tile.blockConcrete.orange.name=Béton orange
+tile.blockConcrete.magenta.name=Béton magenta
+tile.blockConcrete.light_blue.name=Béton bleu clair
+tile.blockConcrete.yellow.name=Béton jaune
+tile.blockConcrete.lime.name=Béton vert clair
+tile.blockConcrete.pink.name=Béton rose
+tile.blockConcrete.gray.name=Béton gris
+tile.blockConcrete.silver.name=Béton gris clair
+tile.blockConcrete.cyan.name=Béton cyan
+tile.blockConcrete.purple.name=Béton violet
+tile.blockConcrete.blue.name=Béton bleu
+tile.blockConcrete.brown.name=Béton marron
+tile.blockConcrete.green.name=Béton vert
+tile.blockConcrete.red.name=Béton rouge
+tile.blockConcrete.black.name=Béton noir
+
+tile.blockUnrational.white.name=§4§k/§r§4Error§k/§r§fInrationel Blanc
+tile.blockUnrational.orange.name=§4§k/§r§4Error§k/§r§fInrationel Orange
+tile.blockUnrational.magenta.name=§4§k/§r§4Error§k/§r§fInrationel Magenta
+tile.blockUnrational.light_blue.name=§4§k/§r§4Error§k/§r§fInrationel Bleu Clair
+tile.blockUnrational.yellow.name=§4§k/§r§4Error§k/§r§fInrationel Jaune
+tile.blockUnrational.lime.name=§4§k/§r§4Error§k/§r§fInrationel Vert Clair
+tile.blockUnrational.pink.name=§4§k/§r§4Error§k/§r§fInrationel Rose
+tile.blockUnrational.gray.name=§4§k/§r§4Error§k/§r§fInrationel Gris
+tile.blockUnrational.silver.name=§4§k/§r§4Error§k/§r§fInrationel Gris Clair
+tile.blockUnrational.cyan.name=§4§k/§r§4Error§k/§r§fInrationel Cyan
+tile.blockUnrational.purple.name=§4§k/§r§4Error§k/§r§fInrationel Violet
+tile.blockUnrational.blue.name=§4§k/§r§4Error§k/§r§fInrationel Bleu
+tile.blockUnrational.brown.name=§4§k/§r§4Error§k/§r§fInrationel Marron
+tile.blockUnrational.green.name=§4§k/§r§4Error§k/§r§fInrationel Vert
+tile.blockUnrational.red.name=§4§k/§r§4Error§k/§r§fInrationel Rouge
+tile.blockUnrational.black.name=§4§k/§r§4Error§k/§r§fInrationel Noir
 
 tile.blockPaper.name=Bloc de Papier
 tile.firePit.name=Feu de Camp
@@ -22,3 +77,5 @@ randomdumps.chocobo.Kweh=KWEH
 randomdumps.chocobo.Hurt=Chocobo Blessé :c
 randomdumps.chocobo.Death=Chocobo Mort D:
 randomdumps.chocobo.Step=Pas de Chocobo
+
+unrational.desc=Même le nom est §kUnrational§r !

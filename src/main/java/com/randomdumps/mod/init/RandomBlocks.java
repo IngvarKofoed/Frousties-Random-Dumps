@@ -6,6 +6,7 @@ import com.randomdumps.mod.blocks.BlockConcrete;
 import com.randomdumps.mod.blocks.BlockConcretePowder;
 import com.randomdumps.mod.blocks.BlockFancyTorch;
 import com.randomdumps.mod.blocks.BlockPaper;
+import com.randomdumps.mod.blocks.BlockUnrational;
 import com.randomdumps.mod.blocks.FirePit;
 
 import net.minecraft.block.Block;
@@ -26,6 +27,7 @@ public class RandomBlocks {
 	public static Block blockFancyTorch;
 	public static Block blockConcretePowder;
 	public static Block blockConcrete;
+	public static Block blockUnrational;
 	
 	public static void init() {
 		blockPaper = new BlockPaper();
@@ -35,6 +37,7 @@ public class RandomBlocks {
 		blockFancyTorch = new BlockFancyTorch();
 		blockConcretePowder = new BlockConcretePowder();
 		blockConcrete = new BlockConcrete();
+		blockUnrational = new BlockUnrational();
 	}
 	
 	public static void register() {
@@ -45,6 +48,7 @@ public class RandomBlocks {
 		registerBlock(blockFancyTorch);
 		registerColorBlock(blockConcretePowder);
 		registerColorBlock(blockConcrete);
+		registerColorBlock(blockUnrational);
 	}
 	
 	public static void registerBlock(Block block) {
@@ -69,6 +73,7 @@ public class RandomBlocks {
 		registerRender(blockFancyTorch);
 		registerRender(blockConcretePowder);
 		registerRender(blockConcrete);
+		registerRender(blockUnrational);
 	}
 	
 	public static void registerRender(Block block) {

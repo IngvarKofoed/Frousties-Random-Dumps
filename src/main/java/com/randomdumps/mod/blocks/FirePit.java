@@ -40,6 +40,7 @@ public class FirePit extends Block implements ITileEntityProvider {
 		setCreativeTab(RandomDumps.RANDOM_TAB);
 		setHardness(0.8F);
 		setSoundType(blockSoundType.WOOD);
+		setLightLevel(0.2F);
 	}
 	
 	@Override
